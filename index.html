@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Look</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+
+</head>
+
+<body>
+<script src="script.js"></script>
+  <header>
+    <nav class="nav-bar">
+        <div class="logo">
+          <img class="logo1" src="assets/images/logo-fundo.png" alt="">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="#menu-link1" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#menu-link2" class="nav-link">Depoimentos</a></li>
+                <li class="nav-item"><a href="#menu-link3" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#menu-link4" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/images/menu.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="#menu-link1" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#menu-link2" class="nav-link">Depoimentos</a></li>
+            <li class="nav-item"><a href="#menu-link3" class="nav-link">Projetos</a></li>
+            <li class="nav-item"><a href="#menu-link4" class="nav-link">Contato</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="#">Entrar</a></button>
+        </div>
+    </div>
+</header>
+  
+    
+<section id="menu-link1" class="my-carousel-section">
+        <h2 class="my-section-title">Recursos Principais</h2>
+        <div class="my-carousel-container">
+          <div class="my-carousel">
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 1</h3>
+              <p class="my-item-description">Descrição do Recurso 1</p>
+            </div>
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 2</h3>
+              <p class="my-item-description">Descrição do Recurso 2</p>
+            </div>
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 3</h3>
+              <p class="my-item-description">Descrição do Recurso 3</p>
+            </div>
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 4</h3>
+              <p class="my-item-description">Descrição do Recurso 4</p>
+            </div>
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 5</h3>
+              <p class="my-item-description">Descrição do Recurso 5</p>
+            </div>
+            <div class="my-carousel-item">
+              <h3 class="my-item-title">Recurso 6</h3>
+              <p class="my-item-description">Descrição do Recurso 6</p>
+            </div>
+          </div>
+        </div>
+        <button class="my-prev-button">◄</button>
+        <button class="my-next-button">►</button>
+      </section>
+      
+
+        
+
+    <div id="menu-link2" class="carousel-container">
+        <div class="carousel">
+          <div class="slide">
+            <p class="dep">DEPOIMENTO 1</p>
+            <p class="aut-dep">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+          </div>
+          <div class="slide">
+            <p class="dep">DEPOIMENTO 2</p>
+            <p class="aut-dep">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+          </div>
+          <div class="slide">
+            <p class="dep">DEPOIMENTO 3</p>
+            <p class="aut-dep">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+          </div>
+        </div>
+      </div>
+      
+
+    <section id="menu-link3" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="service1.png" alt="Serviço 1" class="service-image">
+                    <h3 class="service-title">Serviço 1</h3>
+                    <p class="service-description">Descrição do Serviço 1</p>
+                </div>
+                <div class="service">
+                    <img src="service2.png" alt="Serviço 2" class="service-image">
+                    <h3 class="service-title">Serviço 2</h3>
+                    <p class="service-description">Descrição do Serviço 2</p>
+                </div>
+                <div class="service">
+                    <img src="service3.png" alt="Serviço 3" class="service-image">
+                    <h3 class="service-title">Serviço 3</h3>
+                    <p class="service-description">Descrição do Serviço 3</p>
+                </div>
+                <div class="service">
+                    <img src="service4.png" alt="Serviço 4" class="service-image">
+                    <h3 class="service-title">Serviço 4</h3>
+                    <p class="service-description">Descrição do Serviço 4</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-link4" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-description">Preencha o formulário abaixo para entrar em contato conosco:</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" class="form-input">
+                <input type="email" placeholder="Seu e-mail" class="form-input">
+                <textarea placeholder="Sua mensagem" class="form-input"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Magic Look. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+
+</html>
